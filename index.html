@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Aplicación Once </title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp11.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/sus2.jpg','imagenes/psi2.jpg','imagenes/pedi2.jpg','imagenes/logo1.jpg','imagenes/logo.png')" >
+<div data-role="page" id="principal" data-theme="c">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+ <h1>CARRERAS BONITAS</h1>
+ </div>
+
+<div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/visor111.html" style="width:370px;height:291px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">    
+    <h2> DERECHO</h2>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2>PSICOLOGÍA</h2>
+    </a>
+    </li>
+      <li class="ui-first-child ui-last-child">
+    <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r"> 
+    <h2> PEDIATRÍA</h2>
+    </a>
+    </li>
+    </ul>
+    
+        <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>Datos de la programadora</h1>
+   <h3> <em> María Guadalupe Arellano Rocha <br> 30/Octubre/1998 </em> </h3>
+   <h3> <em> CBTis 16 Atlixco, Pue.
+      </em> </h3> 
+   <p>Vídeo motivacional. <br>
+     <iframe width="420" height="315" src="https://www.youtube.com/embed/YDRId6QmNTA" frameborder="0" allowfullscreen> </iframe> 
+   </p>
+       
+   </div> 
+   </div>
+   
+    </div>
+    
+    
+    
+    <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+    <div>
+    <img src="res/android/persona_rosa.png" width="46" height="46">
+    </div>
+    <div>
+    <h4> Aplicación Once </h4>
+    <h4> María Guadalupe Arellano Rocha </h4>
+    </div>
+    </div>
+    </div> 
+    
+    <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> DERECHO UPAEP-BUAP</h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/logo1.jpg',1)"><img src="imagenes/logo.png" width="249" height="165" id="Image10"></a>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿En qué consiste DERECHO?</h1>
+   <h3> <em> Formar expertos en el conocimiento, creación y aplicación de las normas jurídicas (leyes).
+Dichas normas deben ser un instrumento racional de ordenación de las relaciones sociales y económicas entre el Estado y los ciudadanos y las personas entre sí, con el fin de lograr en la sociedad valores como el orden, la seguridad, la justicia y la libertad. </em> </h3>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/sus2.jpg',1)"><img src="imagenes/sus1.jpg" width="192" height="194" id="Image13"></a> </div>
+   
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>Perfil vocacional </h1>
+   <h3> Tiene conocimientos en cultura general, ortografía y redacción.
+Maneja habilidades de tecnología, apertura de pensamiento, disposición para aprender y lectura de comprensión.
+Posee actitud flexible, servicial y carismática.
+Promueve valores de honestidad, éticos, perseverancia y justicia.
+</h3> 
+   </div>
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Campo de trabajo</h1>
+   <h3> Un Licenciado en Derecho puede desempeñarse en diversas áreas: en una empresa explicando cómo estructurarse, cómo entablar la relación con los socios, con los trabajadores, entre otros. Puede trabajar en el sector público, privado y social como asesor, consultor, abogado litigante e investigador.</h3>
+   </div>
+   
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Datos generales  </h1>
+   <h3>Son 8 semestres con aproximadamente 7 materias por cada uno. </h3>
+   <h3> Correo y número para alcarar dudas: </h3>
+   <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=199&Itemid=167"> UPAEP proceso de admisión  </a> 
+    <h3>  admisiones@upaep.mx o al 01800 2242200. </h3>
+   <h3> INVERSIÓN </h3>
+<h3> Inscripción: $8,270.00 </h3>
+<h3> Unidad de cobro: $1,218.00 </h3>
+<h3> Precios vigentes Otoño 2016, sujetos a cambio sin previo aviso </h3>
+<p> <a href="http://www.derecho.buap.mx"> BUAP-DERECHO </a> </p>
+
+ 
+     </div>
+ 
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Proceso de admisión </h1>
+   <h3> El proceso de admisión lo realizarás en línea, por lo tanto, los requisitos que a continuación se mencionan, los deberás integrar por este mismo medio. </h3>
+ <h2>  Requisitos de Admisión </h2>
+<h3> a) Constancia de estudios o certificado de bachillerato: la constancia deberá ser oficial, con calificaciones desglosadas de 1ro a 4to semestre (o su equivalente) y en caso de entregar certificado, deberá estar completo, con calificaciones hasta 6to semestre y para ambos, un promedio general mínimo de 7.0 y no tener asignaturas reprobadas. </h3>
+ 
+ <h3> b) Documento de identidad: podrás entregar cualquiera de los siguientes documentos </h3> <h3> - Acta de nacimiento, Pasaporte, CURP o cualquier otra identificación oficial que contenga tu nombre completo y fecha de nacimiento. </h3>
+
+<h2> Para presentar tu Examen de Admisión </h2> 
+<h3> - Deberás asistir con una identificación en el lugar y día correspondiente. </h3>
+<h3> - El resultado lo podrás consultar en las fechas que se darán a conocer el día del examen. </h3>
+ 
+<h2>  Una vez admitido:  </h2>
+<h3> - A tu correo electrónico llegará, la matrícula e indicaciones para continuar con el proceso de inscripción. </h3>
+<h3> - Podrás cubrir en ese momento el monto de la inscripción. </h3>
+<h3> - Una vez cubierta tu inscripción, te haremos llegar vía correo electrónico las fechas para presentar exámenes de ubicación...</h3>
+   </div> 
+</div> 
+    </div>
+    
+   <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+    <img src="res/android/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Once MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+    
+    
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> PSICOLOGÍA BUAP-UPAEP</h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/logo.png',1)"><img src="imagenes/logo1.jpg" width="183" height="275" id="Image"></a>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿En qué consiste psicología?</h1>
+   <h3><em>Entender el comportamiento humano y los pensamientos que lo generan; con la finalidad de lograr en las personas salud mental, bienestar Psicosocial y mayor desarrollo de ellas mismas.</em></h3>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/psi2.jpg',1)"><img src="imagenes/psi1.jpg" width="284" height="177" id="Image14"></a> </div>
+   
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>Perfil profesional </h1>
+   
+   <h3>Profesional de la salud especializado en trastornos psicológicos cuya causa radica en dificultades personales de relación y convivencia con el entorno, y no a alteraciones en la estructura del sistema nervioso, como los tratados por el Psiquiatra. </h3>
+
+<h3> La Psicología intenta descubrir los secretos del comportamiento humano, tanto a nivel individual, social y patológico, y de su problemática para llevar a la persona a comprender los mecanismos que determinan sus problemas para aprender a controlarlos, como también aprender a desarrollar las propias características y capacidades individuales. </h3>
+
+<h3> Estudia la existencia de una multiplicidad de problemas sociales que necesitan ser identificados y releídos, como el de la relación familiar y social de una persona, a fin de promover en ella procesos de cambio autónomos y sustentables en el tiempo, ejerciendo también una labor preventiva y educadora en dicho ámbito. </h3>
+
+<h3> La psicología investigativa recoge hechos sobre la conducta de las personas organizándolos sistemáticamente y elaborando teorías para su comprensión. Esto ayuda a conocer y explicar el comportamiento de las personas y en algunas oportunidades, incluso, a predecir sus acciones futuras, pudiendo intervenir sobre ellas. </h3>
+
+<h3> Para todo esto dispone de un método, técnicas e instrumentos que permiten abordar científicamente los procesos de evaluación de problemas psicológicos, su diagnóstico y tratamiento.</h3>
+    </div>
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Campo de trabajo BUAP</h1>
+   <h3> Puede desarrollarse en los ámbitos social, de salud, educación y organizacional; en institutos de investigación, laboratorios, escuelas de diferentes niveles, centros de educación especial, de terapia educativa; hospitales, clínicas, guarderías, centros penitenciarios, empresas públicas y privadas, casas de cuidado diario, centros de atención y rehabilitación especializados, dependencias gubernamentales y organizaciones abocadas a diversas actividades de servicio a la comunidad así como en consulta o asesoría privada.
+</h3>
+     </div>
+   
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Datos generales </h1>
+ 
+   <h3> Mayor información al correo electrónico admision@correo.buap.mx; al teléfono 2 29 55 00, extensiones 5084, 5092, 7019, 7002, 6040 y 5103; así como en Facebook como Admisión Licenciaturas BUAP y Admisión Preparatorias BUAP. </h3>
+    <p><a href="http://cmas.siu.buap.mx/portal_pprd/wb/EDUCATIVA/licenciatura_en_psicologia_1">  BUAP página oficial </a>
+    </p>
+    <p><a href="http://www.upaep.mx/index.php?option=com_content&amp;view=article&amp;id=169&amp;Itemid=167"> UPAEP página oficial psicología </a> </p>
+
+     </div>
+ 
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Proceso de admisión </h1>
+   <h3>Los aspirantes tienen hasta el 31 de marzo para realizar su registro en línea y seleccionar la carrera. Una vez terminado el registro en dicha página electrónica, aparecerá una ficha de pago correspondiente a la Prueba de Aptitud Académica (PAA) y la Prueba por Área de Conocimiento (PAC), la cual se imprimirá y pagará en las instituciones bancarias que aparecen en la misma.</p>
+   <p>En el caso de los aspirantes a los 12 programas educativos de ciencias de la salud –Biomedicina, Enfermería, Estomatología, Fisioterapia, Medicina, Medicina Familiar y Comunitaria, Nutrición Clínica, Profesional Asociado en Imagenología, Readaptación y Activación Física, Profesional Asociado en Urgencias Médicas, Psicología y Cultura Física- es requisito para el ingreso a éstos haber acreditado el Curso de Inducción, efectuado en dos sesiones sabatinas el pasado mes de febrero. Sin embargo, quienes no lo lograron podrán aspirar a otra carrera de las otras áreas del conocimiento.</h3>
+   <h2>&nbsp;</h2>
+     </div> 
+</div> 
+    </div>
+    
+   <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+   <img src="res/android/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Once MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+    
+    
+     
+    
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+    <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+  <h1> PEDIATRÍA  BUAP-UPAEP </h1> 
+    </div>
+    <div data-role="content" align="center">
+    <div> 
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/logo.png',1)"><img src="imagenes/logo3.png" width="225" height="225" id="Image2"></a>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿En qué consiste pediatría?</h1>
+   <p> Vigilar el crecimiento y desarrollo de los niños. </p>
+        <p> Cuidar y orientar a sus padres sobre su alimentación. </p>
+<p> Dar instrucciones a los padres sobre la prevención de las enfermedades promocionando y aplicando las inmunizaciones o vacunas. </p>
+<p> Atiende enfermedades comunes de los niños y adolescentes.</p>
+<p> Vigila la salud mental del niño.</p>
+<p> Atender problemas conductuales, emocionales y sociales.</p>
+<p> Está capacitado para atender problemas de aprendizaje y otros problemas escolares.</p>
+<p> Es de gran ayuda en la prevención y control del consumo de drogas en los adolescentes.</p>
+<p> Un apoyo para tratar los problemas de la pubertad y otros relacionados con la adolescencia.</p>
+   <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/pedi2.jpg',1)"><img src="imagenes/pedi1.jpg" width="214" height="235" id="Image15"></a> </div>
+   
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>Perfil profesional </h1>
+   <h3>El aspirante a la Especialización en Pediatría debe ser un médico general idóneo, joven de espíritu, emprendedor, trabajador, que se haya destacado en sus estudios de pregrado desde el punto de vista académico, social e investigativo.<br>
+   </h3>
+   <h3>Debe ser un profesional con conocimientos sólidos en Pediatría, que permitan una atención integral al niño (desde el período de la concepción hasta el término de la adolescencia) por medio de programas de prevención, promoción, atención y rehabilitación en salud.</h3>
+    </div>
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Campo de trabajo </h1>
+   <p>Un pediatra puede laborar en el Sector Salud, como parte del personal especializado de las instituciones federales y estatales. </p>
+<p> Clínicas privadas. </p>
+<p> Puede desarrollarse en el campo de la investigación. </p>
+<p> Docencia en nivel superior.</p> 
+   </div>  
+   
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Datos generales </h1>
+   <h2> Coordinación de Posgrado: </h2>
+<h3> Hospital Universitario <br>
+Coordinador: Dr. Oswaldo Arana Muñoz <br>
+Dirección: 25 Poniente No. 1301 Col. Volcanes, Puebla, Pue. C.P. 72400 <br> 
+Teléfono: 01 (222) 229 5500 ext. 6165 y 6166 <br>
+Fax: 01 (222) 240 5032 <br>
+E-mail: sangabc@hotmail.com  </h3>
+
+<h2> Información del Programa: </h2>
+<h3> Orientación: Profesionalizante <br>
+Duración: 3 Años <br>
+Periodo Escolar: Anual <br>
+Materias: 24 <br>
+Créditos: 300 <br> 
+Inicio de Periodo escolar: <br> 
+Año de creación: 1970</h3>
+
+<h2> Costos: <h2> 
+<h3> Inscripción al DEPAS (Estudiantes  Mexicanos): $1,000.00  <br> 
+Examen médico expedido por el  Hospital Universitario de Puebla:  $ 750.00  <br>
+Derecho a Credencial: $25.00 </h3>
+<p><a href="http://www.viep.buap.mx/posgrado/posgrados-informacion.php?id_prog=00022"> BUAP, acerca de los posgrados de pediatría.</a></p>
+
+<p> <a href="http://www.upaep.mx/index.php?option=com_content&view=article&id=6500&Itemid=28"> UPAEP, pediatría </a> </p>
+     </div>
+ 
+     <div data-role="collapsible" data-content-theme="false">
+   <h1>Perfil de ingreso BUAP</h1>
+   <h3>Profesional con licenciatura en medicina, enfermería estomatología, química, administración y otras áreas afines al posgrado, interesados en el desarrollo de los servicios de salud.</h3>
+     </div> 
+</div> 
+    </div>
+    
+   <div data-role="footer" data-theme="c" data-position="fixed" >
+     <div data-role="footer" align="center" data-theme="c">
+    <div>
+      <div>
+  <img src="res/android/persona_rosa.png" width="46" height="46">
+    </div>
+    <h4> Aplicación Once MGAR </h4>
+   </div>
+    </div>
+    </div>
+    </div>
+   
+
+
+</body>
+</html>
